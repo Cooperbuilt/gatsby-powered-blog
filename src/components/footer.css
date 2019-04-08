@@ -1,0 +1,14 @@
+.Footer {
+  position: fixed;
+  bottom: 16px;
+}
+
+.Footer-logo {
+  width: 50px;
+  margin-bottom: 0;
+  margin-right: 16px;
+}
+
+.Footer-link {
+  color: transparent;
+}

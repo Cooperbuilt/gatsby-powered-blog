@@ -26,17 +26,17 @@ class Template extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'inherit',
+              color: 'black',
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Cooperbuilt Tech
           </Link>
         </h1>
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
             fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
@@ -47,27 +47,29 @@ class Template extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'inherit',
+              color: '#0B54E3',
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Cooperbuilt Tech
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        {header}
-        {children()}
-      </div>
+      <main>
+        <section
+          style={{
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          {header}
+          {children()}
+        </section>
+      </main>
     )
   }
 }

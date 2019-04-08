@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Cooperbuilt Tech',
+    author: 'Evan Cooper',
+    description: 'A  blog about soft skills, agile, and frontend development',
+    siteUrl: 'www.cooperbuilt.tech',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
@@ -33,6 +33,7 @@ module.exports = {
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          `gatsby-plugin-sass`,
         ],
       },
     },
