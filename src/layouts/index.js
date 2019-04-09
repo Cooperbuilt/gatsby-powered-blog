@@ -30,7 +30,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Cooperbuilt Tech
+            Cooper Built Tech
           </Link>
         </h1>
       )
@@ -51,7 +51,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Cooperbuilt Tech
+            Cooper Built Tech
           </Link>
         </h2>
       )

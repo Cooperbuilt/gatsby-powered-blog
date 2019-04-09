@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Cooperbuilt Tech',
+    title: 'Cooper Built Tech',
     author: 'Evan Cooper',
     description: 'A  blog about soft skills, agile, and frontend development',
     siteUrl: 'www.cooperbuilt.tech',
